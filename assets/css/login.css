@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+:root{
+    --family1:'Poppins', sans-serif;
+    --family2:'Kablammo', cursive;
+    --family3:'ADLaM Display', cursive;
+}
+
+*{
+    margin: 0 !important;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    z-index: 2;
+    background-color: white;  
+}
+
+div.logo > img{
+    height: 70px;
+}
+
+ul > li{
+    list-style-type: none;
+}
+
+ul > li > a{
+    color: black;
+    font-size: 16px;
+    font-family: var(--family1);
+}
+
+div.search > input{
+    outline: none;
+    border: 3px soild rgba(0, 0, 0, 0.231);
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: var(--family1);
+}

@@ -1,0 +1,317 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+:root{
+    --family1:'Poppins', sans-serif;
+    --family2:'Kablammo', cursive;
+    --family3:'ADLaM Display', cursive;
+}
+
+*{
+    margin: 0 !important;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    z-index: 2;
+    background-color: white;  
+}
+
+div.logo > img{
+    height: 70px ;
+}
+
+div.logo > a > img{
+    height: 70px;
+}
+
+ul > li{
+    list-style-type: none;
+}
+
+ul > li > a{
+    color: black;
+    font-size: 16px;
+    font-family: var(--family1);
+}
+
+div.search > input{
+    outline: none;
+    border: 3px soild rgba(0, 0, 0, 0.231);
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: var(--family1);
+}
+
+
+
+
+
+div.cover3{
+    text-align: center;
+    width: 100% !important ;
+}
+
+button.button3{
+    height: 50px;
+    width: 130px;
+    font-size: 16px;
+    font-family: var(--family1);
+    background-color:white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 7px;
+    box-shadow: 7px 7px 6px rgba(255, 255, 255, 0.074); 
+}
+
+footer{
+    font-family: var(--family1);
+    font-size: 14px;
+    font-weight: 400;   
+}
+
+div.help{
+    background-color: rgba(233, 229, 229, 0.846);
+    width: fit-content;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: var(--family1);
+    font-size: 15px;
+
+}
+
+i{
+    font-size: 24px;
+}
+
+i.ficon{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.739);
+}
+
+nav > a{
+    font-size: 16px;
+    font-family: var(--family1);
+}
+
+nav > input{
+    outline: none;
+    border: 2px soild white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: var(--family1);
+}
+
+
+div.offcanvas{
+    backdrop-filter: blur(25px);
+    background-color:transparent;
+}
+
+main.container1{
+    margin-top: 170px !important;
+    margin-bottom: 100px !important;
+}
+
+div.brandimg1{
+    background-image: url(../images/IMG_3311.WEBP);
+    width: 400px;
+    height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.brandimg2{
+    background-image: url(../images/IMG_3313.WEBP);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+div.brandimg3{
+    background-image: url(../images/IMG_3312.WEBP);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+/* 
+div.overlay1{
+    background-image: url(../images/IMG_3297.WEBP);
+    width: 100%;
+    height:100%;
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 1s;
+
+
+} */
+
+div.overlay2{
+    background-image: url(../images/IMG_3314.WEBP);
+    width: 100%;
+    height: 500px;
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 1s;
+
+
+}
+/* 
+div.overlay3{
+    background-image: url(../images/IMG_3301.WEBP);
+    width: 100%;
+    height: 500px;
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 1s;
+
+
+} */
+/* 
+div.brandimg1:hover > div.overlay1{
+    display: block;
+
+} */
+
+div.brandimg2:hover > div.overlay2{
+    display: block;
+
+}
+/* 
+div.brandimg3:hover > div.overlay3{
+    display: block;
+
+} */
+
+
+
+
+div.cover5{
+    margin-top: 10px !important;
+}
+
+
+div.cover5 > p{
+    font-size: 15px;
+    font-family: var(--family1);
+    font-weight: 300;
+}
+
+button.buy{
+    background-color: black;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: var(--family1);
+    font-weight: 300;
+    border: 2px solid black;
+    margin-top: 10px !important;
+}
+
+div.cover6{
+    margin-top: 50px !important;
+}
+
+
+
+div.brandimg4{
+    background-image: url(../images/IMG_3317.WEBP);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.brandimg5{
+    background-image: url(../images/IMG_3318.WEBP);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+div.brandimg6{
+    background-image: url(../images/IMG_3320.WEBP);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+/* 
+div.overlay4{
+    background-image: url(../images/IMG_3303.WEBP);
+    width: 100%;
+    height:100%;
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 1s;
+
+
+}
+
+div.overlay5{
+    background-image: url(../images/IMG_3305.WEBP);
+    width: 100%;
+    height: 500px;
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 1s;
+
+
+}
+
+div.overlay6{
+    background-image: url(../images/IMG_3308.WEBP);
+    width: 100%;
+    height: 500px;
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 1s;
+
+
+}
+
+div.brandimg4:hover > div.overlay4{
+    display: block;
+
+}
+
+div.brandimg5:hover > div.overlay5{
+    display: block;
+
+}
+
+div.brandimg6:hover > div.overlay6{
+    display: block;
+
+} */
